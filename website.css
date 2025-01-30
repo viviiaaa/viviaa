@@ -1,0 +1,41 @@
+nav {
+    background-color: #444;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #b73b4d;
+    border-radius: 5px;
+}
+
+nav a i {
+    margin-right: 8px;
+    color: white;
+}
+
+nav a:first-child {
+    background-color: #b73b4d;
+    border-radius: 5px;
+}
+
+header div {
+    margin-left: auto;
+}
+
+header img {
+    height: 40px;
+    width: auto;
+}
